@@ -5,12 +5,21 @@
     b. a soma do triplo do primeiro com o terceiro.
     c. o terceiro elevado ao cubo.
 """
+import math
 
-numero_inteiro_01 = int(input('Informe um numero inteiro: '))
+n1 = int(input('Informe um numero inteiro: '))
 
-numero_inteiro_02 = int(input('Informe outro numero inteiro: '))
+n2 = int(input('Informe outro numero inteiro: '))
 
-numero_real = int(input('Informe um numero real: '))
+nR = float(input('Informe um numero real: '))
+
+a = n1 * 2 * (n2 / 2)
+
+b = n1 * 3 + nR
+
+c = nR**3
+
+print(f'Resultado de a: {a}, b: {b}, c: {c}')
 
 
 
