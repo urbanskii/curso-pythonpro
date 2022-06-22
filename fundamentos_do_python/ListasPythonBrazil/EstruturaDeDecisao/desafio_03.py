@@ -5,4 +5,11 @@
 
 """
 
+sexo = input('Informe o sexo, apenas primeira letra: ')
 
+if sexo == 'F':
+    print(f'Feminino')
+elif sexo == 'M':
+    print(f'Masculino')
+else:
+    print('Sexo Inválido!.')
