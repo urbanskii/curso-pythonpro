@@ -8,6 +8,6 @@
 valor = float(input('Informe o valor: '))
 
 if valor > 0 :
-    print('Valor positivo: {valor}')
+    print(f'Valor positivo: {valor}')
 else:
-    print('Valor negativo: {valor}')
+    print(f'Valor negativo: {valor}')
